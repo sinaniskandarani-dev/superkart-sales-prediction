@@ -11,10 +11,10 @@ st.write("Predict the total sales of a product in a SuperKart store.")
 
 # Fixed attributes of SuperKart's existing stores (store age = 2025 - establishment year)
 STORES = {
-    "OUT001 - Supermarket Type1, Tier 2": {"Store_Size": "High", "Store_Location_City_Type": "Tier 2", "Store_Type": "Supermarket Type1", "Store_Age_Years": 38},
-    "OUT002 - Food Mart, Tier 3": {"Store_Size": "Small", "Store_Location_City_Type": "Tier 3", "Store_Type": "Food Mart", "Store_Age_Years": 27},
-    "OUT003 - Departmental Store, Tier 1": {"Store_Size": "Medium", "Store_Location_City_Type": "Tier 1", "Store_Type": "Departmental Store", "Store_Age_Years": 26},
-    "OUT004 - Supermarket Type2, Tier 2": {"Store_Size": "Medium", "Store_Location_City_Type": "Tier 2", "Store_Type": "Supermarket Type2", "Store_Age_Years": 16},
+    "OUT001 - Supermarket Type1, Tier 2": {"Store_Size": "High", "Store_Location_City_Type": "Tier 2", "Store_Type": "Supermarket Type1", "Store_Age_Years": 39},
+    "OUT002 - Food Mart, Tier 3": {"Store_Size": "Small", "Store_Location_City_Type": "Tier 3", "Store_Type": "Food Mart", "Store_Age_Years": 28},
+    "OUT003 - Departmental Store, Tier 1": {"Store_Size": "Medium", "Store_Location_City_Type": "Tier 1", "Store_Type": "Departmental Store", "Store_Age_Years": 27},
+    "OUT004 - Supermarket Type2, Tier 2": {"Store_Size": "Medium", "Store_Location_City_Type": "Tier 2", "Store_Type": "Supermarket Type2", "Store_Age_Years": 17},
 }
 
 # Product type -> (Product_Id_char, Product_Type_Category), as engineered during training
